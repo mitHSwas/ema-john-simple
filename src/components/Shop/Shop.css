@@ -14,6 +14,21 @@
     background-color: rgba(255, 153, 0, 0.3);
 }
 
+.pagination {
+    margin: 40px auto;
+}
+
+.pagination button {
+    margin-right: 10px;
+}
+
+.pagination .selected {
+    background-color: goldenrod;
+    border: 1px solid gold;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
 @media screen and (max-width:1100px) {
     .products-container {
         grid-template-columns: repeat(2, 1fr);

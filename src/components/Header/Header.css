@@ -18,3 +18,8 @@
 .header a:hover {
     color: orange;
 }
+
+.btn-logout {
+    font-size: 17px;
+    margin-left: 25px;
+}
